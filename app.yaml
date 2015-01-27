@@ -16,10 +16,9 @@ handlers:
 
 
 
-- url: /images
+- url: /img
 
-  static_files: static/images/\1
-  upload: static/images/.*
+  static_dir: img
 
   
 
@@ -27,10 +26,10 @@ handlers:
 
   static_dir: css
 
-- url: /nuevas
 
-  static_files: static/nuevas/\1
-  upload: static/nuevas/.*
+- url: /fonts
+
+  static_dir: fonts
 
 
 
