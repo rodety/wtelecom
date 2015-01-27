@@ -1,37 +1,18 @@
 application: telecomunicacionesprofesionale
-
 version: 1
-
 runtime: python
-
 api_version: 1
-
-
-
 handlers:
-
 - url: /js
-
-  static_dir: js
-
-
-
+static_dir: js
 - url: /images
-
-  static_dir: images
-
-  
-
+static_files: static/images/\1
+upload: static/images/.*
 - url: /css
-
-  static_dir: css
-
-
-
+static_dir: css
+- url: /nuevas
+static_files: static/nuevas/\1
+upload: static/nuevas/.*
 - url: /.*
-
-  static_files: index.html
-
-  upload: index.html
-
-
+static_files: index.html
+upload: index.html
