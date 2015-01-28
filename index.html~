@@ -60,7 +60,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Producto <i class="icon-angle-down"></i></a>
                         <ul class="dropdown-menu">
                             <li><a href="#">Transmisor FM - Nissi 300</a></li>
-                            <li><a href="static/prod_nissi500.html">Transmisor FM - Nissi 500</a></li>
+                            <li><a href="#">Transmisor FM - Nissi 500</a></li>
                             <li><a href="#">Transmisor FM - Nissi 1000</a></li>
                             <li class="divider"></li>
                             <h6>EXCITADORES FM</h6>
