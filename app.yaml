@@ -1,4 +1,4 @@
-application: telecomunicacionesprofesionale
+application: wtelecomunicaciones
 
 version: 1
 
@@ -10,32 +10,14 @@ api_version: 1
 
 handlers:
 
-- url: /js
+- url: /static
 
-  static_dir: js
-
-
-
-- url: /img
-
-  static_dir: img
-
-  
-
-- url: /css
-
-  static_dir: css
-
-
-- url: /fonts
-
-  static_dir: fonts
-
+  static_dir: static
 
 
 - url: /.*
 
-  static_files: index.html about-us.html
+  static_files: index.html
 
-  upload: index.html about-us.html
+  upload: index.html
 
