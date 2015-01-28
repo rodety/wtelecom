@@ -35,8 +35,7 @@ handlers:
 
 - url: /.*
 
-  static_files: index.html
+  static_files: index.html about-us.html
 
-  upload: index.html
-
+  upload: index.html about-us.html
 
